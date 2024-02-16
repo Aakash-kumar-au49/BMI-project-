@@ -1,0 +1,53 @@
+body{
+    /*background-color: rgb(108, 184, 210);*/
+    margin-top: 0px;
+    /* background-image: url(https://e0.pxfuel.com/wallpapers/386/919/desktop-wallpaper-website-background-website-login-page-background.jpg); */
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/premium-photo/fresh-fruits-vegetables-grey-background-healthy-eating-concept-flat-lay-copy-space_781871-346.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+
+
+
+
+
+ 
+    /* background-color: rgb(108, 184, 210); */
+    
+      /*background: linear-gradient(to right, #b58648, #ef8a70,#c880b9);
+      /* background: linear-gradient(to right,#b57e36, #cb6247, #87106e); */
+      
+    /*margin-top: 0px;
+    /* background-image: url(https://e0.pxfuel.com/wallpapers/386/919/desktop-wallpaper-website-background-website-login-page-background.jpg); */
+    /*background-repeat: no-repeat;
+    /* background-image: url(https://images.unsplash.com/photo-1555243896-c709bfa0b564?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+   
+  
+  /* .A{
+    background-color: rgba(0,0,0,0.7);
+    margin: 100px; 
+   box-sizing: border-box;
+   border-radius: 10px;
+   padding: 20%;
+   display: flex;
+   color: aliceblue;
+  } */
+   .F{
+    background-color: rgba(75, 73, 73, 0.657);
+    color: aliceblue;
+    justify-content: center;
+    display: flex; 
+   padding: 5%;
+   border-radius: 10px;
+  }
+  .B{
+padding: 20px;
+border-radius: 10px;
+  } 
+
+
+h2 {
+  color: #000;
+}  
