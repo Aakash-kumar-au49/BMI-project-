@@ -45,10 +45,10 @@ router.post("/bfp", (req, res) => {
     bodyFatPercentage =
       86.01 * Math.log10(waist - neck) - 70.041 * Math.log10(height) + 36.76;
   } else {
-    bodyFatPercentage =
-      163.205 * Math.log10(waist + neck - height) -
-      97.684 * Math.log10(height) -
-      78.387;
+    bodyFatPercentage = 96.01 * Math.log10(waist - neck) - 70.041 * Math.log10(height) + 36.76;
+      // 163.205 * Math.log10(waist + neck - height) -
+      // 97.684 * Math.log10(height) -
+      // 78.387;
   }
 
   // Store BFP data in database

@@ -20,9 +20,9 @@ function App() {
         
       </div>
    
-      <footer>
+      {/* <footer>
         <p><marquee><h3><b>In this Page you can check BMI,BFP & IBW</b></h3></marquee> </p>
-      </footer>
+      </footer> */}
     </>
   );
 }
