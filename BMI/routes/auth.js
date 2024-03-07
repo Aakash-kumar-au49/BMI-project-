@@ -55,6 +55,7 @@ router.post("/login", (req, res) => {
   );
 });
 
+// User signup
 router.post("/signup", (req, res) => {
   // Extract username, password, and email from request body
   const { username, password, email } = req.body;
@@ -63,7 +64,7 @@ router.post("/signup", (req, res) => {
   bcrypt.hash(password, 10, (err, hashedPassword) => {
     if (err) {
       console.error("Error hashing password:", err);
-      res.status(500).json({ error: "Internal Server Error1" });
+      res.status(500).json({ error: "Internal Server Error" });
       return;
     }
 
@@ -74,7 +75,11 @@ router.post("/signup", (req, res) => {
       (err, results) => {
         if (err) {
           console.error("Error storing user:", err);
-          res.status(500).json({ error: "Internal Server Error2" });
+          if (err.code === 'ER_DUP_ENTRY') {
+            res.status(400).json({ error: "User already registered" });
+          } else {
+            res.status(500).json({ error: "Internal Server Error" });
+          }
           return;
         }
 
