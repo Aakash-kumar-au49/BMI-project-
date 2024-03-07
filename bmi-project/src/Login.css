@@ -1,99 +1,46 @@
 body{
     margin-top: 0px;
-    /* background-image: url(https://e0.pxfuel.com/wallpapers/386/919/desktop-wallpaper-website-background-website-login-page-background.jpg); */
     background-repeat:repeat;
-    background-size:contain;
+    background-size:cover;
     background-position: center;
     background-image: url(https://static.vecteezy.com/system/resources/previews/012/843/767/non_2x/fresh-fruits-and-vegetables-on-grey-background-healthy-eating-concept-flat-lay-copy-space-photo.jpg) ;
     object-fit: cover;
-    /* background-image: url(https://wallpapercave.com/wp/wp4696896.jpg); */
 
 }
 
 
-
-
- 
-
-
-/* Login.css */
-
-/* .login-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 35vh;
+/* .login-container{
+  height: 50vh;
   width: 30vh;
-  background-color: #e4f9df8d;
-  border-radius: 1vh;
-}
-
-.form-container {
-  background-color: #ffffff;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  width: 400px;
-}
-
-.form-container h2 {
-  font-size: 24px;
-  color: #333333;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.input-group {
-  margin-bottom: 20px;
-}
-
-.input-group label {
-  display: block;
-  font-size: 16px;
-  color: #555555;
-  margin-bottom: 5px;
-}
-
-.input-group input {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
-}
-
-.input-group input:focus {
-  outline: none;
-  border-color: #007bff;
-}
+  background-color: aqua;
+} */
 
 .button {
-  width: 100%;
-  padding: 12px;
-  background-color: #dd1111;
+  background-color: #4CAF50; /* Green */
   border: none;
-  border-radius: 5px;
-  color: #ffffff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-radius: 4px;
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #45a049; /* Darker green */
 }
 
-.footer-text {
-  text-align: center;
-  font-size: 14px;
-  color: #888888;
-}
-
-.footer-text span {
-  color: #007bff;
+/* Style the span inside the paragraph */
+p span {
   cursor: pointer;
+  color: blue;
 }
 
-.footer-text span:hover {
+/* Hover effect for the span */
+p span:hover {
   text-decoration: underline;
-} */
+}
